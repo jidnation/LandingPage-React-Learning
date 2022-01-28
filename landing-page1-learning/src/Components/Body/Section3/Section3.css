@@ -1,0 +1,47 @@
+.sect-3row {
+    height: 60vh;
+    padding-top: 0;
+}
+
+.card {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card>div+div {
+    margin-left: 3em;
+}
+
+.card>.left-sid {
+    width: 70%;
+    max-width: 25rem;
+    padding: 2em 2em 0;
+}
+
+.card>.right-sid {
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-sid>.sized-box {
+    width: 80%;
+    max-width: 22em;
+}
+
+.sized-box>h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.2em;
+}
+
+.sized-box>.msg {
+    font-size: 0.9rem;
+    color: grey;
+    letter-spacing: 0.2px;
+    margin-bottom: 0.8em;
+}
+
+.sized-box>a {
+    color: var(--primary-color);
+}

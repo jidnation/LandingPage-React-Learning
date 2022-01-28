@@ -1,0 +1,46 @@
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reducer {
+    width: 90%;
+    max-width: 27em;
+}
+
+.mr {
+    margin-left: 0;
+}
+
+.reducer>.heading {
+    margin: 0.2em 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+}
+
+.hr {
+    width: 9%;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 1em;
+}
+
+.reducer>.msg {
+    color: grey;
+    font-size: 0.9rem;
+    width: 75%;
+    margin-bottom: 2em;
+}
+
+.top-section>.right-side {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.top-section>.left-side {
+    display: flex;
+    justify-content: start;
+}

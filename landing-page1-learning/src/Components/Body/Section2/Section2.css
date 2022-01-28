@@ -1,0 +1,63 @@
+.sect-2 {
+    margin: 4.5em 0 0;
+}
+
+.sect-2row {
+    flex-direction: column;
+    height: 80vh;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.sect-2row>.top-part {
+    width: 50%;
+    max-width: 25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 4em 0;
+}
+
+.top-part>.hr {
+    width: 6%;
+}
+
+.top-part>h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-bottom: 0.3em;
+}
+
+.top-part>.msg {
+    font-size: 0.9rem;
+}
+
+.sect-2row>.bottom-part {
+    width: 80%;
+    max-width: 60rem;
+}
+
+.sect-2row>.bottom-part>.show {
+    flex-direction: column;
+}
+
+.sect-2row>.bottom-part>.show+.show {
+    margin-left: 5em;
+}
+
+.show>.img {
+    padding: 2em;
+}
+
+.show>h3 {
+    font-size: 1.1rem;
+    letter-spacing: 0.4px;
+    margin-bottom: 0.5em;
+}
+
+.show>p {
+    font-size: 0.62rem;
+    letter-spacing: 0.1px;
+}

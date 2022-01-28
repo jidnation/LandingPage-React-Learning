@@ -1,0 +1,111 @@
+.sect-5 {
+    background-color: var(--primary-color);
+    padding: 2em 0;
+    margin-bottom: 3em;
+}
+
+.sect-5 .sizer {
+    max-width: 60rem;
+}
+
+.naked-box {
+    flex-direction: column;
+    width: 70px;
+    color: #fff;
+    line-height: 1.7rem;
+}
+
+.naked-box>.heading {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.naked-box>.hr {
+    width: 35%;
+    background-color: #fff;
+    height: 1px;
+}
+
+.direction {
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.chevor-icon {
+    height: 24.5px;
+    font-size: 1rem;
+}
+
+.direction h5 {
+    font-weight: 400;
+    margin-right: 0.5rem;
+}
+
+.box-container {
+    background-color: #fff;
+    max-width: 160px;
+    min-height: 165px;
+    padding: 0.6em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.box-container+.box-container {
+    margin-left: 1.2em;
+}
+
+.box-container .lower-part {
+    flex-direction: column;
+}
+
+.box-container>.body {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.body .text-sect {
+    flex-direction: column;
+    justify-content: start;
+    font-weight: 500;
+}
+
+.lower-part {
+    position: relative;
+    background-color: red;
+}
+
+.lower-part>.avatar>img {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+.lower-part .text-sect {
+    position: absolute;
+    left: 35%;
+    bottom: -50px;
+}
+
+.text-sect {
+    flex-direction: column;
+}
+
+.lower-part .text-sect .title {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.lower-part .text-sect .role {
+    color: rgba(128, 128, 128, 0.884);
+    font-size: 0.7rem;
+}

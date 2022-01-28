@@ -1,0 +1,55 @@
+.row {
+    display: flex;
+}
+
+section {
+    width: 100%;
+    padding: 2em 0;
+}
+
+.sizer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*      LOGO    SECTION      */
+.logo-img {
+    width: 45px;
+    height: 45px;
+    margin-right: 0.5em;
+}
+
+.logo-text {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+/*      MIDDLE  NAV-BAR  SECTION        */
+
+.nav-items+.nav-items {
+    margin-left: 1.5em;
+}
+
+.nav-items>a,
+.right-sec>a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-items>a:hover,
+.right-sec>a:hover {
+    color: grey;
+    font-weight: 500;
+}
+
+/*      RIGHT   NAV-BAR SECTION      */
+
+.right-sec>a {
+    margin-right: 1.5em;
+}
